@@ -1,30 +1,28 @@
-# spiceFP
+# SpiceFP
 
-Sparse and Structured Procedure to Identify Combined Effects of Functional Predictors
+**Sparse and Structured Procedure to Identify Combined Effects of Functional Predictors**
 
-__Package In progress...__
+A set of functions allowing to implement the **spiceFP** approach which is 
+iterative. It involves transformation of functional predictors into several 
+candidate explanatory matrices (based on contingency tables), to which 
+edge matrices with contiguity constraints are associated.
 
-This package provides a set of functions that help to implement the **spiceFP**
-approach which is iterative. It involves transformation of functional predictors
-into several candidate explanatory matrices (based on contingency tables), to 
-which relative edge matrices with contiguity constraints are associated. 
+**Generalized Fused Lasso regression** are performed in order to identify the 
+best candidate matrix, the best class intervals and related coefficients at 
+each iteration. 
 
-**Generalized Fused Lasso regression** are performed in order to identify the best
-candidate matrix, the best class intervals and related coefficients at each
-iteration.
-
-The approach is stopped when the maximal number of iterations is reached or when
-retained coefficients are zeros. Supplementary functions allow to get 
+The approach is stopped when the maximal number of iterations is reached or 
+when retained coefficients are zeros. Supplementary functions allow to get 
 coefficients of any candidate matrix or mean of coefficients of many candidates.
-
 
 # Installation
 
-To install the **spiceFP** package, the easiest is to install it directly from GitHub. Open an R session and run the following commands:
+To install the **SpiceFP** package, the easiest is to install it directly 
+from GitHub. Open an R session and run the following commands:
 
 ```R
 library(remotes) 
-install_github("XXXXXX/spiceFP", build_vignettes=TRUE)
+install_github("giraultg/SpiceFP", build_vignettes=TRUE)
 ```
 
 # Usage
@@ -33,16 +31,17 @@ Once the package is installed on your computer, it can be loaded into a R sessio
 
 ```R
 library(spiceFP)
-help(package="spiceFP")
+help(package="SpiceFP")
 ```
 
 # Citation
 
-As a lot of time and effort were spent in creating the **spiceFP** method, please cite it when using it for data analysis:
+As a lot of time and effort were spent in creating the **SpiceFP** method, 
+please cite it when using it for data analysis:
 
-INSERT METHODO PAPER CITATION
+METHODO PAPER CITATION IS COMING SOON.
 
-You should also cite the **spiceFP** package:
+You should also cite the **SpiceFP** package:
 
 ```R
 citation("spiceFP")
