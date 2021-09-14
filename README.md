@@ -39,7 +39,7 @@ help(package="SpiceFP")
 As a lot of time and effort were spent in creating the **SpiceFP** method, 
 please cite it when using it for data analysis:
 
-METHODO PAPER CITATION IS COMING SOON.
+https://hal.archives-ouvertes.fr/hal-03298977
 
 You should also cite the **SpiceFP** package:
 
